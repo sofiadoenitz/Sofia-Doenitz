@@ -30,4 +30,25 @@
 # mayor de edad mas o igual a 18
 
 
+# a=int(input())
+# for i in range (1,10001):
+#     print (f"{i}*{a}={i*a}")
 
+# edad=1
+# while (edad<0 or edad>100):
+#     edad=int(input())
+#     if (edad<0 or edad>100):
+#        print("Error, fuera de rango")
+
+# print("Ingresado exitosamente")
+# print(edad)
+
+
+# num=int(input("Ingrese un numero: "))
+# if num % 2 == 0:
+#     print(num, " es par.")
+# else:
+#     print(num, " es impar.")
+
+
+    
