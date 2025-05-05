@@ -50,5 +50,29 @@
 # else:
 #     print(num, " es impar.")
 
+import random
+
+numa=random.randint(1,100)
+
+
+print("Estoy pensando en un numero, adivina cual es...")
+
+
+while True:
+    num = input("Adivina el número: ")
+
+    if not num.isdigit():
+        print("Por favor, ingresa un número válido.")
+        continue
+
+    num = int(num)
+
+    if num <  numa:
+        print("Demasiado bajo.")
+    elif num > numa:
+        print("Demasiado alto.")
+    else:
+        print(f"¡Felicidades! Adivinaste el número, este es {numa}")
+        break
 
     
